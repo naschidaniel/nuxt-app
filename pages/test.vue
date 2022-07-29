@@ -14,6 +14,7 @@ import { ref, watchEffect } from 'vue';
 
 // declare a ref to hold the element reference
 // the name must match template ref value
+// https://vuejs.org/guide/essentials/template-refs.html#accessing-the-refs
 const input = ref(null);
 
 watchEffect(() => {
