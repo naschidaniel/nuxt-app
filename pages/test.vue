@@ -19,6 +19,7 @@ const input = ref(null);
 
 watchEffect(() => {
   if (input.value) {
+    input.value.focus()
     console.log(input.value);
     console.log(input.value?.clientWidth);
   }
